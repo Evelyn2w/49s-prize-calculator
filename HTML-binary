@@ -1,0 +1,4 @@
+<input id="match" type="number" placeholder="Matched numbers">
+<input id="stake" type="number" placeholder="Your stake">
+<button onclick="calculatePrize()">Calculate</button>
+<p id="result"></p>
