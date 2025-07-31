@@ -1,0 +1,8 @@
+<script>
+function calculatePrize() {
+  const matches = document.getElementById("match").value;
+  const stake = document.getElementById("stake").value;
+  let prize = matches * stake * 1.23; // fake logic
+  document.getElementById("result").innerText = "Estimated Prize: £" + prize.toFixed(2);
+}
+</script>
